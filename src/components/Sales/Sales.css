@@ -1,0 +1,38 @@
+.sales-container{
+ margin: 1rem 5rem 0rem 5rem;
+ display: flex;
+ flex-direction: column;
+ }
+
+.sales-box{
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.sales-orders {
+    width: fit-content;
+}
+
+.sales-container section {
+    display: flex;
+}
+
+.popular-items-container, 
+.total-sales-container{ 
+    margin: 1rem 5rem 0rem 5rem;
+    display: flex;
+    flex-direction:column;
+} 
+
+.popular-item, 
+.sales-item{
+    text-align: center;
+}
+
+.sidebar-container{
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+.pizzas {
+  border: 1px solid var(--outline);
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: var(--outline);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  border: var(--outline) solid 1px;
+}
+
+.pizza-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pizza-dropdowns {
+  width: 40%;
+}
+
+.pizzas .form-group {
+  width: 80;
+  text-align: left;
+}
+
+.toppings {
+  width: 50%;
+}
+
+.toppings-list {
+  display: flex;
+  flex-wrap: wrap;
+  border: var(--outline) solid 1px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.topping-option label {
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+
+.topping-option {
+  width: 40%;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.toppings h4 {
+  width: 100%;
+}
